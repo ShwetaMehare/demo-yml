@@ -1,5 +1,5 @@
 ---
-- name: this playbook for vars variables
+- name: this playbook for vars files variables
   hosts: all
   vars files: demo.yml
   tasks: 
