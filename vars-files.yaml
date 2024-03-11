@@ -1,7 +1,7 @@
 # my_playbook.yml
 ---
 - name: Playbook using vars files
-  hosts: your_target_hosts
+  hosts: all
   vars_files:
     - my_vars.yml
 
