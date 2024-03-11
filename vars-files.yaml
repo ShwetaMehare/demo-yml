@@ -3,7 +3,7 @@
   hosts: all
   vars files: demo.yml
   tasks: 
-   - name: writing my first tasks example for the vars variables
+   - name: writing my first tasks example for the vars files variables
      debug: 
        msg: "{my fisrt vars-variables}"
 ...
