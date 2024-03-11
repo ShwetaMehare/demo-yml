@@ -1,9 +1,16 @@
+# my_playbook.yml
 ---
-- name: this playbook for vars files variables
-  hosts: all
-  vars files: demo.yml
-  tasks: 
-   - name: writing my first tasks example for the vars files variables
-     debug: 
-       msg: "{my fisrt vars-variables}"
+- name: Playbook using vars files
+  hosts: your_target_hosts
+  vars_files:
+    - my_vars.yml
+
+  tasks:
+    - name: Display variable values
+      debug:
+        var: my_variable1
+
+    - name: Another task using a different variable
+      debug:
+        var: my_variable2
 ...
