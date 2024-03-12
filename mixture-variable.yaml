@@ -6,7 +6,7 @@
   tasks: 
     - name: this is global variable 
       debug:
-        msg: "{{url}}"
+        msg: "{{URL}}"
     - name: this is local variable
       debug:
         msg: "{{string}}"
