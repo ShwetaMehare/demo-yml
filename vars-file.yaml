@@ -5,5 +5,5 @@
   tasks: 
     - name: first task example for the vars variable
       debug: 
-        msg: {{"Hello people"}}
+        msg: "{{Hello}}"
 ...
