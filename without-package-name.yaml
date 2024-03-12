@@ -1,0 +1,10 @@
+---
+- name: download package without package command
+  hosts: all
+  become: yes
+  tasks: 
+    - name: install without command
+      apt:
+       name: tree
+       state: latest
+...
