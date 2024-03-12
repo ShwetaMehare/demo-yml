@@ -1,0 +1,11 @@
+--- 
+- name: this is my variable host file
+  hosts: all
+  tasks: 
+    - name: working on my first host variable file
+      debug: 
+        msg: "{{URL}}"
+    - name: working on my second host veriavle file
+      debug: 
+        msg: "{{URL}}"
+...
