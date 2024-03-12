@@ -1,9 +1,9 @@
 ---
 - name: this playbook for var variable
   hosts: all
-  vars_files: demo.yml
+  vars_files: demo1.yml
   tasks: 
     - name: first task example for the vars variable
       debug: 
-        msg: "{{Hello}}"
+        msg: "{{URL}}"
 ...
